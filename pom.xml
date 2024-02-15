@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
     <artifactId>min-web-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>min-web-demo</name>
     <description>min-web-demo</description>
     <properties>
@@ -55,6 +55,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.example.MinWebDemoApplication</mainClass>
+                    <layout>JAR</layout>
                     <skip>true</skip>
                 </configuration>
                 <executions>
